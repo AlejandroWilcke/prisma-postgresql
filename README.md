@@ -6,29 +6,29 @@
 
 # Instalación
 ```
-    git clone https://github.com/AlejandroWilcke/prisma-postgresql.git
+git clone https://github.com/AlejandroWilcke/prisma-postgresql.git
 ```
 ```
-    cd prisma-postgresql
+cd prisma-postgresql
 ```
 ```
-    npm install
+npm install
 ```
 ```
-    npx prisma migrate dev
+npx prisma migrate dev
 ```
 ```
-    npx prisma generate
+npx prisma generate
 ```
 
 # Seedear DB con Movies y Users
 ```
-    npm run seed
+npm run seed
 ```
 
 # Correr la aplicación
 ```
-    npm start
+npm start
 ```
 
 # Diagrama DB
