@@ -14,6 +14,7 @@ cd prisma-postgresql
 ```
 npm install
 ```
+- Importante configurar .env previo a este paso
 ```
 npx prisma migrate dev
 ```
