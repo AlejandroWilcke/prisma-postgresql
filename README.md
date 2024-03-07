@@ -1,16 +1,23 @@
 # Setup
-```
-    NodeJS 16+
-    PostgreSQL 16
-    Configurar nombre de base de datos y usuario en .env
-```
+- NodeJS 16+
+- PostgreSQL 16
+- Configurar nombre de base de datos y usuario en .env
+
 
 # Instalación
 ```
     git clone https://github.com/AlejandroWilcke/prisma-postgresql.git
+```
+```
     cd prisma-postgresql
+```
+```
     npm install
+```
+```
     npx prisma migrate dev
+```
+```
     npx prisma generate
 ```
 
@@ -33,10 +40,8 @@
 [Link a la colección en JSON](https://api.postman.com/collections/33223255-233c65c5-6ea4-437f-b584-ee3fab4df77f?access_key=PMAT-01HRB4S62E08RMAQG7YFXSWZM5)
 
 #### 2- Setear un ambiente de Postman con estas 2 variables, y seleccionarlo:
-```
-    BASE_URL = http://localhost:3000/api
-    token = null
-```
+- BASE_URL = http://localhost:3000/api
+- token = null
 
 #### 3- Autenticación a traves de los requests de la carpeta Auth (cada petición en esta carpeta guarda el token en la variable de ambiente)
 
