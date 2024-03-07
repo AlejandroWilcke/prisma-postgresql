@@ -7,6 +7,8 @@
 
 # Instalación
 ```
+    git clone https://github.com/AlejandroWilcke/prisma-postgresql.git
+    cd prisma-postgresql
     npm install
     npx prisma migrate dev
     npx prisma generate
